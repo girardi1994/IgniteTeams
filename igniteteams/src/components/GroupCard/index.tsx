@@ -7,7 +7,7 @@ import {
   Icon
 } from './styles';
 
-type Props = TouchableOpacityProps && {
+type Props = TouchableOpacityProps & {
   title: string,
 }
 
