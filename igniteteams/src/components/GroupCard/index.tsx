@@ -8,7 +8,7 @@ import {
 } from './styles';
 
 type Props = TouchableOpacityProps && {
-  title: string
+  title: string,
 }
 
 export function GroupCard({title, ...rest}: Props){
